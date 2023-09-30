@@ -1,0 +1,100 @@
+body {
+    background: url(../img/bg-landingpage.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+nav {
+    background: #EEEEEE;
+    padding: 5px 40px;
+    color: #222831;
+}
+
+.app-logo {
+    height: 50px;
+}
+
+.nav-button {
+    background: #D65A31;
+    color: #EEEEEE;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: .3s ease-in-out;
+    border: 1px solid #D65A31;
+}
+
+.nav-button:hover {
+    background: #EEEEEE;
+    color: #D65A31;
+    border: 1px solid #D65A31;
+}
+
+.auth-box {
+    /* background: #EEEEEE; */
+    border-radius: 5px;
+    margin-top: 50px;
+    width: 400px;
+    padding: 30px 20px;
+
+    background: rgba( 255, 255, 255, 0.6 );
+    box-shadow: 0 8px 32px 0 rgba(4, 5, 7, 0.4);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+}
+
+.auth-label {
+    display: block;
+}
+
+.auth-input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    border: 2px solid #222831;
+    transition: .3s ease-in-out;
+    border-radius: 5px;
+}
+
+.auth-input:focus {
+    outline: none;
+    border: 2px solid #D65A31;
+}
+
+.btn-signin {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    background: #D65A31;
+    color: #EEEEEE;
+    transition: .3s ease-in-out;
+    font-weight: bold;
+}
+
+.btn-signin:hover {
+    background: #222831;
+    color: #EEEEEE;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+}
+
+@media only screen and (min-width: 600px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+}

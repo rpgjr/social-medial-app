@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+/*
+    Pallet-1 Link https://colorhunt.co/palette/222831393e46d65a31eeeeee
+    Pallet-2 Link https://colorhunt.co/palette/17223b2638596b778dff6768
+*/
+:root {
+    /* Pallet-1 */
+    --color-dark-1: #222831;
+    --color-dark-2: #393E46;
+    --color-light-1: #D65A31;
+    --color-light-2: #EEEEEE;
+
+    /* Pallet-2 */
+    --color-dark-3: #17223B;
+    --color-dark-4: #263859;
+    --color-light-3: #6B778D;
+    --color-light-4: #FF6768;
+
+    --primary-font: 'Montserrat', sans-serif;
+    --heading-font: 'Archivo Black', sans-serif;
+
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
